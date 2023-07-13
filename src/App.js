@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
-
+import Test from "./components/Test"
 import "./styles/App.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";
@@ -20,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/Test" element = {< Test/>} />
       </Routes>
       <Footer />
     </Router>
